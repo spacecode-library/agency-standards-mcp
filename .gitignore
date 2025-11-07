@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Environment variables (contains secrets)
+.env
+.env.local
+.env.*.local
+
+# Railway deployment guide (contains sensitive info)
+RAILWAY_DEPLOYMENT.md
+
+# Knowledge base (can be regenerated)
+knowledge_base.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+branch_structure.json

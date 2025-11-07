@@ -1,0 +1,13 @@
+[project]
+name = "agency-standards-mcp"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=0.72.0",
+    "fastapi>=0.120.2",
+    "mcp>=1.4.0",
+    "pathspec>=0.12.1",
+    "python-dotenv>=1.2.1",
+    "uvicorn>=0.38.0",
+]
